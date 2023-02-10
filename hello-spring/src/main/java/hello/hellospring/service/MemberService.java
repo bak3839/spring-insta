@@ -26,7 +26,6 @@ public class MemberService {
         return member.getId();
     }
 
-
     public List<Member> findMembers(){
         return memberRepository.findAll();
     }
